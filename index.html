@@ -14,20 +14,20 @@
 </head>
 <body>
   <header>
-    <div class="fixed w-full">
+    <div class="fixed w-full bg-white">
       
       <nav class="flex items-center justify-between px-2 mx-2">
         
         <ul class="flex items-center space-x-5">
-          <li><img class="h-14" src="img/UguLogo.jpg" alt=""></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="block bg-white"><img class="h-14 w-full" src="img/UguLogo.jpg" alt=""></li>
+          <li class="block bg-white"><a href="#">About</a></li>
+          <li class="block bg-white"><a href="#services">Services</a></li>
+          <li class="block bg-white"><a href="#">Contact</a></li>
         </ul>
         <ul class="flex items-center space-x-5">
           <li>
             <span class="fa fa-sign-in"></span>
-            <a href="http://insight.ugu-energy.com/">Client Login</a>
+            <a href="http://insight.ugu-energy.com/">Login</a>
           </li>
         </ul>  
       
@@ -37,8 +37,55 @@
     </div>
   </header>
   
-  <main>
+  <main class="py-14">
     
+    <section class="jumbotron h-full flex flex-wrap justify-evenly">
+      <div>
+        <img class="h-24 w-full mb-2" src="img/logotransparent.png" alt="">
+      </div>
+      <div>
+        <h2 class="text-xl text-center">Technology solutions for sustainable business</h2>
+      </div>
+    </section>
+
+    <section id="services" class="flex flex-col justify-center text-center p-2">
+      <div class="">
+        <h1 class="text-xl mt-2 mb-2 border-b-2 border-secondary mx-auto w-24">SERVICES</h1>
+      </div>
+      <div class="service-grid grid-cols-1">
+        
+        <div class="text-center my-4">
+          <i class="fa fa-bolt fa-3x text-gray-500 hover:text-primary"></i>
+          <h4 class="my-2">ELECTRICAL DESIGN</h4>
+          <p class="text-xs md:h-14 lg:h-10">Electrical design work focused on optimising efficiency and aesthetics</p>
+          <button class="rounded-2xl my-2 px-2 py-1 bg-primary text-white font-semibold">Learn more</button>
+        </div>
+      
+        <div class="text-center my-4">
+          <i class="fa fa-leaf fa-3x text-gray-500"></i>
+          <h4 class="my-2">ENERGY MANAGEMENT</h4>
+          <p class="text-xs md:h-14 lg:h-10">Holistic energy management integrating technology, behavior and control mechanisms.</p>
+          <button class="rounded-2xl my-2 px-2 py-1 bg-primary text-white font-semibold">Learn more</button>
+        </div>
+
+        <div class="text-center my-4">
+          <i class="fa fa-bar-chart fa-3x text-gray-500"></i>
+          <h4 class="my-2">REMOTE MONITORING</h4>
+          <p class="text-xs md:h-14 lg:h-10">Online energy management tools and automated reporting for property owners and
+            facilities managers.</p>
+          <button class="rounded-2xl my-2 px-2 py-1 bg-primary text-white font-semibold">Learn more</button>
+        </div>
+
+        <div class="text-center my-4">
+          <i class="fa fa-wrench fa-3x text-gray-500"></i>
+          <h4 class="my-2">IMPLEMENTATION</h4>
+          <p class="text-xs md:h-14 lg:h-10">We manage the implementation and maintenance of technological installations and optimisations</p>
+          <button class="rounded-2xl my-2 px-2 py-1 bg-primary text-white font-semibold">Learn more</button>
+        </div>
+
+      </div>
+    </section>
+
 
   </main>
 
