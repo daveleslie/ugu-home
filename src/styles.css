@@ -12,5 +12,11 @@
 
   .service-grid {
     @apply grid md:grid-cols-4;
+  },
+
+  .client-tile > img {
+    
+    @apply max-h-12 my-4;
   }
+
 }
