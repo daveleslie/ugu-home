@@ -32808,7 +32808,7 @@ video {
 .client-tile > img {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  max-height: 3rem;
+  max-height: 2.5rem;
 }
 
 @media (min-width: 640px) {

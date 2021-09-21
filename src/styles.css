@@ -16,7 +16,7 @@
 
   .client-tile > img {
     
-    @apply max-h-12 my-4;
+    @apply max-h-10 my-4;
   }
 
 }
