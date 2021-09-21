@@ -11,12 +11,25 @@
   },
 
   .service-grid {
-    @apply grid md:grid-cols-4;
+    @apply grid md:grid-cols-2 lg:grid-cols-4;
   },
 
   .client-tile > img {
     
     @apply max-h-10 my-4;
+  },
+
+  .offset:before {
+    display: block;
+    content: " ";
+    height: 40px;
+    /* margin-top: -10rem; */
+    visibility: hidden;
+  }
+
+  .test {
+    height:20px;
+    background-color: blue;
   }
 
 }

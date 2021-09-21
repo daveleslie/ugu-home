@@ -32801,6 +32801,12 @@ video {
 
 @media (min-width: 768px) {
   .service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .service-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
@@ -32809,6 +32815,21 @@ video {
   margin-top: 1rem;
   margin-bottom: 1rem;
   max-height: 2.5rem;
+}
+
+,
+
+  .offset:before {
+  display: block;
+  content: " ";
+  height: 40px;
+  /* margin-top: -10rem; */
+  visibility: hidden;
+}
+
+.test {
+  height:20px;
+  background-color: blue;
 }
 
 @media (min-width: 640px) {
